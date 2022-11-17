@@ -73,9 +73,9 @@ collections:
   Action:
     template: {name: Dynamic, collection: Action, poster: 213118}
     summary: Action films are a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
-  Adult:
-    template: {name: Dynamic, collection: Adult, poster: }
-    summary: "New adult (NA) fiction is a developing genre of fiction with protagonists in the 18–30 age bracket."
+  #Adult:
+  #  template: {name: Dynamic, collection: Adult, poster: }
+  #  summary: "New adult (NA) fiction is a developing genre of fiction with protagonists in the 18–30 age bracket."
   Adventure:
     template: {name: Dynamic, collection: Adventure, poster: 213132}
     summary: Adventure films are a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.  
@@ -115,26 +115,26 @@ collections:
   History:
     template: {name: Dynamic, collection: History, poster: 213100}
     summary: History films are a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History films are often accentuated by a sweeping musical score, lavish costumes, and high production value.
-  Home and Garden:
-    template: {name: Dynamic, collection: Home and Garden, poster: }
+  #Home and Garden:
+  #  template: {name: Dynamic, collection: Home and Garden, poster: }
   # summary: 
   Horror:
     template: {name: Dynamic, collection: Horror, poster: 213106}
     summary: Horror films are a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
-  Indie:
-    template: {name: Dynamic, collection: Indie, poster: }
-    summary: An independent film, independent movie, indie film, or indie movie is a feature film or short film that is produced outside the major film studio system, in addition to being produced and distributed by independent entertainment companies (or, in some cases, distributed by major companies).
-  Mini-Series:
-    template: {name: Dynamic, collection: Mini-Series, poster: }
-    summary: A miniseries or mini-series is a movie series that tells a story in a predetermined, limited number of parts.
+  #Indie:
+  #  template: {name: Dynamic, collection: Indie, poster: }
+  #  summary: An independent film, independent movie, indie film, or indie movie is a feature film or short film that is produced outside the major film studio system, in addition to being produced and distributed by independent entertainment companies (or, in some cases, distributed by major companies).
+  #Mini-Series:
+  #  template: {name: Dynamic, collection: Mini-Series, poster: }
+  #  summary: A miniseries or mini-series is a movie series that tells a story in a predetermined, limited number of parts.
   Musical:
     template: {name: Dynamic, collection: Musical, poster: 213095}
     summary: A Musical interweaves vocal and dance performances into the narrative of the film. The songs of a film can either be used to further the story or simply enhance the experience of the audience. These films are often done on a grand scale and incorporate lavish costumes and sets. Traditional musicals center on a well-known star, famous for their dancing or singing skills (i.e. Fred Astaire, Gene Kelly, Judy Garland). These films explore concepts such are love and success, allowing the audience to escape from reality.
   Mystery:
     template: {name: Dynamic, collection: Mystery, poster: 213092}
     summary: A Mystery film centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
-  News:
-    template: {name: Dynamic, collection: News, poster: }
+  #News:
+  #  template: {name: Dynamic, collection: News, poster: }
   # summary: 
   Romance:
     template: {name: Dynamic, collection: Romance, poster: 213090}
@@ -148,18 +148,18 @@ collections:
   Sports:
     template: {name: Dynamic, collection: Sport, poster: 213083}
     summary: A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
-  Suspense:
-    template: {name: Dynamic, collection: Suspense, poster: }
-    summary: Suspense films is a broad film genre that evokes excitement and suspense in the audience. The suspense element found in most films' plots is particularly exploited by the filmmaker in this genre.
+  #Suspense:
+  #  template: {name: Dynamic, collection: Suspense, poster: }
+  #  summary: Suspense films is a broad film genre that evokes excitement and suspense in the audience. The suspense element found in most films' plots is particularly exploited by the filmmaker in this genre.
   Thriller:
     template: {name: Dynamic, collection: Thriller, poster: 213079}
     summary: Thriller films are a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.
   Travel:
     template: {name: Dynamic, collection: Travel, poster: 213337}
     summary: Travel films are a genre that revolves around traveling.
-  TV Movie:
-   template: {name: Dynamic, collection: TV Movie, poster: }
-   summary: A television film (normally referred to as a television movie, made-for-TV movie, or TV movie) is a feature-length motion picture that is produced and originally distributed by or to a television network, in contrast to theatrical films made explicitly for initial showing in movie theaters.
+  #TV Movie:
+  # template: {name: Dynamic, collection: TV Movie, poster: }
+  # summary: A television film (normally referred to as a television movie, made-for-TV movie, or TV movie) is a feature-length motion picture that is produced and originally distributed by or to a television network, in contrast to theatrical films made explicitly for initial showing in movie theaters.
   War:
     template: {name: Dynamic, collection: War, poster: 213119}
     summary: War films are a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
