@@ -26,6 +26,7 @@ templates:
         url_poster: https://theposterdb.com/api/assets/<<poster>>
         sort_title: +03_01__<<collection_name>>
         collection_mode: hide
+        minimum_items: 10
     Genre:
         plex_search:
           genre: <<genre>>
@@ -33,11 +34,13 @@ templates:
         sort_title: +03_01__<<collection_name>>
         collection_mode: hide
         collection_order: release.desc
+        minimum_items: 10
     Special Genre:
         url_poster: https://theposterdb.com/api/assets/<<poster>>
         sort_title: +03_01__<<collection_name>>
         collection_mode: hide
         collection_order: release.desc
+        minimum_items: 10
     # IMDB Genre: # Has been removed as Plex now includes these genres in it's list 
         # url_poster: https://theposterdb.com/api/assets/<<poster>>
         # sort_title: ++++++++_<<collection_name>>
@@ -50,6 +53,7 @@ templates:
         sort_title: +03_01__<<collection_name>>
         collection_mode: hide
         collection_order: release.desc
+        minimum_items: 10
         # imdb_list: 
           # - url: "https://www.imdb.com/search/title/?title_type=movie&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=<<genre>>"
     IMDB Keyword:
@@ -57,6 +61,7 @@ templates:
         sort_title: +03_01__<<collection_name>>
         collection_mode: hide
         collection_order: release.desc
+        minimum_items: 10
         # imdb_list: 
           # - url: "https://www.imdb.com/search/keyword/?title_type=movie&keywords=<<genre>>"
         
