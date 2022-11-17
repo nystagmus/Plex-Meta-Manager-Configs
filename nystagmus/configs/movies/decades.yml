@@ -18,7 +18,7 @@
 #######################
 
 templates:        
-  Decade:
+  Decade_Template:
     smart_filter:
       any:
         decade: <<decade>>
@@ -32,54 +32,54 @@ templates:
 
 collections:
   2030's Films:
-    template: {name: Decade, decade: 2030}
+    template: {name: Decade_Template, decade: 2030}
     url_poster: https://theposterdb.com/api/assets/213590
     summary: A collection of films during the 2030s
   2020's Films:
-    template: {name: Decade, decade: 2020}
+    template: {name: Decade_Template, decade: 2020}
     url_poster: https://theposterdb.com/api/assets/213589
     summary: A collection of films during the 2020s
   2010's Films:
-    template: {name: Decade, decade: 2010}
+    template: {name: Decade_Template, decade: 2010}
     url_poster: https://theposterdb.com/api/assets/213588
     summary: A collection of films during the 2010s
   2000's Films:
-    template: {name: Decade, decade: 2000}
+    template: {name: Decade_Template, decade: 2000}
     url_poster: https://theposterdb.com/api/assets/213587
     summary: A collection of films during the 2000s
   1990's Films:
-    template: {name: Decade, decade: 1990}
+    template: {name: Decade_Template, decade: 1990}
     url_poster: https://theposterdb.com/api/assets/213586
     summary: A collection of films during the 1990s
   1980's Films:
-    template: {name: Decade, decade: 1980}
+    template: {name: Decade_Template, decade: 1980}
     url_poster: https://theposterdb.com/api/assets/213585
     summary: A collection of films during the 1980s
   1970's Films:
-    template: {name: Decade, decade: 1970}
+    template: {name: Decade_Template, decade: 1970}
     url_poster: https://theposterdb.com/api/assets/213584
     summary: A collection of films during the 1970s
   1960's Films:
-    template: {name: Decade, decade: 1960}
+    template: {name: Decade_Template, decade: 1960}
     url_poster: https://theposterdb.com/api/assets/213583
     summary: A collection of films during the 1960s
   1950's Films:
-    template: {name: Decade, decade: 1950}
+    template: {name: Decade_Template, decade: 1950}
     url_poster: https://theposterdb.com/api/assets/213582
     summary: A collection of films during the 1950s
   1940's Films:
-    template: {name: Decade, decade: 1940}
+    template: {name: Decade_Template, decade: 1940}
     url_poster: https://theposterdb.com/api/assets/213581
     summary: A collection of films during the 1940s
   1930's Films:
-    template: {name: Decade, decade: 1930}
+    template: {name: Decade_Template, decade: 1930}
     url_poster: https://theposterdb.com/api/assets/213580
     summary: A collection of films during the 1930s
   1920's Films:
-    template: {name: Decade, decade: 1920}
+    template: {name: Decade_Template, decade: 1920}
     url_poster: https://theposterdb.com/api/assets/213579
     summary: A collection of films during the 1920s
   1910's Films:
-    template: {name: Decade, decade: 1910}
+    template: {name: Decade_Template, decade: 1910}
     url_poster: https://theposterdb.com/api/assets/213578
     summary: A collection of films during the 1910s
