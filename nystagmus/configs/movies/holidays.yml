@@ -19,7 +19,7 @@
 
 templates:
     Holiday:
-        sort_title: +++++++_<<collection_name>>
+        sort_title: +01_10__<<collection_name>>
         url_poster: <<poster>>
         collection_order: release.desc
         collection_mode: hide
@@ -41,7 +41,6 @@ collections:
     visible_home: range(12/01-12/31)
     visible_shared: range(12/01-12/31)
     schedule: range(12/01-12/31)
-    sort_title: +++++++_Christmas
     trakt_list:
       - https://trakt.tv/users/jjjonesjr33/lists/christmas
       - https://trakt.tv/users/jjjonesjr33/lists/christmas-static-list
@@ -51,7 +50,6 @@ collections:
     visible_home: range(10/01-10/31)
     visible_shared: range(10/01-10/31)
     schedule: range(10/01-10/31)
-    sort_title: +++++++_Halloween
     trakt_list:
       - https://trakt.tv/users/jjjonesjr33/lists/halloween
     summary: This collection revolves around the plot involving Halloween.
@@ -60,7 +58,6 @@ collections:
     visible_home: range(12/26-01/05)
     visible_shared: range(12/26-01/05)
     schedule: range(12/26-01/05)
-    sort_title: +++++++_New Year
     imdb_list: 
       - https://www.imdb.com/list/ls066838460/
     summary: This collection revolves around the plot involving New Year's Eve.
@@ -69,7 +66,6 @@ collections:
     visible_home: range(07/01-07/05)
     visible_shared: range(07/01-07/05)
     schedule: range(07/01-07/05)
-    sort_title: +++++++_Independence Day
     imdb_list: 
       - https://www.imdb.com/list/ls552600367/
     summary: This collection revolves around the plot involving New Year's Eve.
@@ -78,7 +74,6 @@ collections:
     visible_home: range(02/01-02/14)
     visible_shared: range(02/01-02/14)
     schedule: range(02/01-02/14)
-    sort_title: +++++++_Valentine
     imdb_list:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
@@ -89,7 +84,6 @@ collections:
     visible_home: range(03/01-03/17)
     visible_shared: range(03/01-03/17)
     schedule: range(03/01-03/17)
-    sort_title: +++++++_St Patrick
     imdb_list:
       - https://www.imdb.com/list/ls063934595/
     summary: This collection revolves around the plot involving St. Patrick's Day.
@@ -98,7 +92,6 @@ collections:
     visible_home: range(11/01-11/31)
     visible_shared: range(11/01-11/31)
     schedule: range(11/01-11/31)
-    sort_title: +++++++_Thanksgiving
     imdb_list: 
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
@@ -108,7 +101,6 @@ collections:
     visible_home: range(3/22-4/25)
     visible_shared: range(3/22-4/25)
     schedule: range(3/22-4/25)
-    sort_title: +++++++_Easter
     imdb_list: 
       - https://www.imdb.com/list/ls062665509/
       - https://www.imdb.com/list/ls051733651/

@@ -25,7 +25,7 @@ templates:
         decade: <<decade>>
       sort_by: release.desc
     url_poster: https://theposterdb.com/api/assets/<<poster>>
-    sort_title: +++++_<<collection_name>>
+    sort_title: +03_10__<<collection_name>>
     collection_mode: hide
 
 #############################

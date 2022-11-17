@@ -3,7 +3,7 @@
 ######################################################
 templates:
   Series:
-    sort_title: +03_<<collection_name>>
+    sort_title: +04_01__<<collection_name>>
     sync_mode: sync
     collection_mode: hide
 #    schedule:
