@@ -38,13 +38,14 @@ templates:
 collections:
   Christmas: #IMDB lists have been removed as they have all been merged into christmas-static-list
     template: {name: Holiday, holiday: "Christmas", poster: https://theposterdb.com/api/assets/212635}
-    visible_home: range(12/01-12/31)
-    visible_shared: range(12/01-12/31)
-    schedule: range(12/01-12/31)
+    visible_home: range(11/21-12/31)
+    visible_shared: range(11/21-12/31)
+    schedule: range(11/21-12/31)
     trakt_list:
       - https://trakt.tv/users/jjjonesjr33/lists/christmas
       - https://trakt.tv/users/jjjonesjr33/lists/christmas-static-list
-    summary: This collection revolves around the plot involving Christmas.
+      - https://trakt.tv/users/yozoraxcii/lists/christmas-extravaganza-non-romance
+    summary: Christmas is lame. Anyway here are some Christmas movies or whatever.
   Halloween:
     template: {name: Holiday, holiday: "Halloween", poster: https://theposterdb.com/api/assets/212637}
     visible_home: range(10/01-10/31)
@@ -52,7 +53,11 @@ collections:
     schedule: range(10/01-10/31)
     trakt_list:
       - https://trakt.tv/users/jjjonesjr33/lists/halloween
-    summary: This collection revolves around the plot involving Halloween.
+      - https://trakt.tv/users/29zombies/lists/halloween
+      - https://trakt.tv/users/galacticboy/lists/not-so-spooky-halloween
+      - https://trakt.tv/users/triadcool/lists/halloween?sort=released,asc
+      - https://trakt.tv/users/evil-vin/lists/halloween-2021?sort=released,asc
+    summary: Halloween rules.
   New Year's Eve Movies:
     template: {name: Holiday, holiday: "New Year's Eve", poster: https://i.imgur.com/YCYXhAX.png}
     visible_home: range(12/26-01/05)
@@ -60,7 +65,7 @@ collections:
     schedule: range(12/26-01/05)
     imdb_list: 
       - https://www.imdb.com/list/ls066838460/
-    summary: This collection revolves around the plot involving New Year's Eve.
+    summary: Despite our best efforts, humanity survives year after year.
   Independence Day:
     template: {name: Holiday, holiday: "Independence Day", poster: https://theposterdb.com/api/assets/240645}
     visible_home: range(07/01-07/05)
@@ -68,7 +73,7 @@ collections:
     schedule: range(07/01-07/05)
     imdb_list: 
       - https://www.imdb.com/list/ls552600367/
-    summary: This collection revolves around the plot involving New Year's Eve.
+    summary: Welcome to earf. AMERICA
   Valentine's Day Movies:
     template: {name: Holiday, holiday: "Valentine's Day", poster: https://theposterdb.com/api/assets/212641}
     visible_home: range(02/01-02/14)
@@ -78,7 +83,8 @@ collections:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
-    summary: This collection revolves around the plot involving Valentine's Day.
+      - https://trakt.tv/users/triadcool/lists/valentine
+    summary: "Forget Netflix and Chill, time to Plex and Chill"
   St. Patrick's Day Movies:
     template: {name: Holiday, holiday: "St. Patrick's Day", poster: https://theposterdb.com/api/assets/240644}
     visible_home: range(03/01-03/17)
@@ -86,7 +92,7 @@ collections:
     schedule: range(03/01-03/17)
     imdb_list:
       - https://www.imdb.com/list/ls063934595/
-    summary: This collection revolves around the plot involving St. Patrick's Day.
+    summary: Surprised that there are enough movies to even make a list here.
   Thanksgiving Movies:
     template: {name: Holiday, holiday: Thanksgiving, poster: https://theposterdb.com/api/assets/212638}
     visible_home: range(11/01-11/31)
@@ -95,7 +101,7 @@ collections:
     imdb_list: 
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
-    summary: This collection revolves around the plot involving Thanksgiving.
+    summary: Get fat and watch some sports.
   Easter Movies:
     template: {name: Holiday, holiday: Easter, poster: https://theposterdb.com/api/assets/212636}
     visible_home: range(3/22-4/25)
@@ -104,4 +110,4 @@ collections:
     imdb_list: 
       - https://www.imdb.com/list/ls062665509/
       - https://www.imdb.com/list/ls051733651/
-    summary: This collection revolves around the plot involving Easter.
+    summary: Jesus died for our chocolate and eggs.
