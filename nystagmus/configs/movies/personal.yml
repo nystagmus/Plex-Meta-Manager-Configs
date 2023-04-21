@@ -7,8 +7,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/bncceo/lists/rt
     smart_label: audience_rating.desc
-    sync_mode: sync
-    collection_order: release
+    sync_mode: sync    
     sort_title: +01_15__Ryan's Movies
     summary: Movies I don't want to forget about
     url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
