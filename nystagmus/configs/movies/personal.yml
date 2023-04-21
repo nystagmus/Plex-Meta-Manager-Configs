@@ -1,19 +1,8 @@
-collections:
 #####################################
 #       Ryan's Personal Shit        #
 #####################################
-  # Most Watched This Week:
-  #   trakt_watched_weekly: 100
-  #   sort_title: "+01_05_Watched This Week"
-  #   sync_mode: sync
-  #   radarr_add: false
-  #   url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Trakt_Weekly.jpg
-  #   collection_order: custom
-  #   collection_mode: hide
-  #   schedule:
-  #    - weekly(sunday)
-  #    - hourly(02)
 
+collections:
   Ryan's Movies:
     trakt_list:
       - https://trakt.tv/users/bncceo/lists/rt
@@ -24,6 +13,7 @@ collections:
     summary: Movies I don't want to forget about
     url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
     schedule: weekly(monday)
+    test: true
 
   Mindfuck Movies:
     trakt_list:
@@ -36,3 +26,4 @@ collections:
     url_poster: https://i.imgur.com/Tl6QMgA.png
     url_background: https://i.imgur.com/DM1Im1X.jpeg
     schedule: weekly(monday)
+    test: true
