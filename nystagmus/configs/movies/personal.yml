@@ -1,0 +1,37 @@
+collections:
+#####################################
+#       Ryan's Personal Shit        #
+#####################################
+  # Most Watched This Week:
+  #   trakt_watched_weekly: 100
+  #   sort_title: "+01_05_Watched This Week"
+  #   sync_mode: sync
+  #   radarr_add: false
+  #   url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Trakt_Weekly.jpg
+  #   collection_order: custom
+  #   collection_mode: hide
+  #   schedule:
+  #    - weekly(sunday)
+  #    - hourly(02)
+
+  Ryan's Movies:
+  trakt_list:
+    - https://trakt.tv/users/bncceo/lists/rt
+  smart_label: audience_rating.desc
+  sync_mode: sync
+  sort_title: +01_15__Ryan's Movies
+  summary: Movies I don't want to forget about
+  url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
+  schedule: weekly(monday)
+
+  Mindfuck Movies:
+  trakt_list:
+    - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+    - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+  smart_label: audience_rating.desc
+  sync_mode: append
+  sort_title: +05_01__Mindfuck Movies
+  summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
+  url_poster: https://i.imgur.com/Tl6QMgA.png
+  url_background: https://i.imgur.com/DM1Im1X.jpeg
+  schedule: weekly(monday)
