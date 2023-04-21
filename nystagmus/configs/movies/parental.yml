@@ -69,7 +69,7 @@ collections:
       all:
         collection: "Parental: All"
       sort_by: random
-      limit: 500
+      limit: 25
 
   "Parental: Recently Released":
     summary: "Recently released movies suitable for children"
@@ -82,7 +82,7 @@ collections:
       all:
         collection: "Parental: All"
       sort_by: release.desc
-      limit: 250
+      limit: 25
 
   "Parental: Recently Added":
     summary: "Recently added movies suitable for children"
@@ -95,7 +95,7 @@ collections:
       all:
         collection: "Parental: All"
       sort_by: added.desc
-      limit: 100
+      limit: 25
 
   "Parental: Top Rated":
     summary: "Top rated movies suitable for children"
@@ -108,4 +108,4 @@ collections:
       all:
         collection: "Parental: All"
       sort_by: critic_rating.desc
-      limit: 250
+      limit: 25
