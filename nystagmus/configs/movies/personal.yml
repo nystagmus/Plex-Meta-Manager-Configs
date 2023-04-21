@@ -2,6 +2,15 @@
 #       Ryan's Personal Shit        #
 #####################################
 
+templates:
+  plex:
+    sort_title: "+01_15_<<num>>__<<collection_name>>"
+    sync_mode: sync
+    collection_mode: hide
+    label.sync: Parental
+    delete_not_scheduled: false
+    cache_builders: 4
+
 collections:
   Ryan's Movies:
     trakt_list:
@@ -14,6 +23,62 @@ collections:
     #schedule: weekly(monday)
     test: true
 
+  Ryan's Comedies:
+    summary: "Comedy shows"
+    url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
+    template: {
+                    name: plex,
+                    num: "X"
+                    }
+    smart_filter:
+      all:
+        collection: "Ryan's Movies"
+        genre: Comedy
+      sort_by: release.desc
+      minimum_items: 10
+
+  Ryan's Sci-Fi:
+    summary: "Sci-fi shows"
+    url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
+    template: {
+                    name: plex,
+                    num: "X"
+                    }
+    smart_filter:
+      all:
+        collection: "Ryan's Movies"
+        genre: Science Fiction
+      sort_by: release.desc
+      minimum_items: 10
+
+  Ryan's Thrillers:
+    summary: "Thriller shows"
+    url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
+    template: {
+                    name: plex,
+                    num: "X"
+                    }
+    smart_filter:
+      all:
+        collection: "Ryan's Movies"
+        genre: Thriller
+      sort_by: release.desc
+      minimum_items: 10
+
+  Ryan's Fantasy:
+    summary: "Fantasy shows"
+    url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
+    template: {
+                    name: plex,
+                    num: "X"
+                    }
+    smart_filter:
+      all:
+        collection: "Ryan's Movies"
+        genre: Fantasy
+      sort_by: release.desc
+      minimum_items: 10
+
   Mindfuck Movies:
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/mindfuck-movies
@@ -24,5 +89,5 @@ collections:
     summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
     url_poster: https://i.imgur.com/Tl6QMgA.png
     url_background: https://i.imgur.com/DM1Im1X.jpeg
-    #schedule: weekly(monday)
+    schedule: weekly(monday)
     test: true
