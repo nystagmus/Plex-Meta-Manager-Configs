@@ -12,7 +12,7 @@ collections:
     sort_title: +01_15__Ryan's Movies
     summary: Movies I don't want to forget about
     url_poster: https://raw.githubusercontent.com/nystagmus/Plex-Meta-Manager-Configs/com-server-config/nystagmus/configs/movies/assets/rt_movies.png
-    schedule: weekly(monday)
+    #schedule: weekly(monday)
     test: true
 
   Mindfuck Movies:
@@ -25,5 +25,5 @@ collections:
     summary: Movies to leave your mind, well, fucked. Sorted by critical acclaim.
     url_poster: https://i.imgur.com/Tl6QMgA.png
     url_background: https://i.imgur.com/DM1Im1X.jpeg
-    schedule: weekly(monday)
+    #schedule: weekly(monday)
     test: true
