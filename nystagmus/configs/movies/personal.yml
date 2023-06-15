@@ -32,7 +32,7 @@ collections:
                     }
     smart_filter:
       all:
-        collection: "Ryan's Movies"
+        collection: Ryan\'s Movies
         genre: Comedy
       sort_by: release.desc
       minimum_items: 10
@@ -46,7 +46,7 @@ collections:
                     }
     smart_filter:
       all:
-        collection: "Ryan's Movies"
+        collection: Ryan\'s Movies
         genre: Science Fiction
       sort_by: release.desc
       minimum_items: 10
@@ -60,7 +60,7 @@ collections:
                     }
     smart_filter:
       all:
-        collection: "Ryan's Movies"
+        collection: Ryan\'s Movies
         genre: Thriller
       sort_by: release.desc
       minimum_items: 10
@@ -74,7 +74,7 @@ collections:
                     }
     smart_filter:
       all:
-        collection: "Ryan's Movies"
+        collection: Ryan\'s Movies
         genre: Fantasy
       sort_by: release.desc
       minimum_items: 10
